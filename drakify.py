@@ -126,13 +126,6 @@ class drakify:
 
 		while (status < 1):
 			print 'Image Add and Echo: ' + self._file_name + self._file_ext, '-- Status:', status*100
-
-			#for item in range(echo_count):
-				#loop to color images
-			#	multiplier = ((echo_count - item) / float(echo_count)) ** 2
-			#	image_array[item][np.where( (image_array[item] != [0,0,0]).all(axis = 2) )] =  \
-			#								[[222*multiplier, 255*multiplier, 100*multiplier]]
-			
 			for item in reversed(range(echo_count)):
 				#loop to stack images
 				if(item == echo_count-1):
