@@ -7,4 +7,4 @@ Python program for custom video effects using the open source computer vision mo
 The effects make large use of canny edge algorithm.
 
 
-More information on OpenCV-Python: https://opencv-python-tutroals.readthedocs.org/en/latest/
+More information on <a href="https://opencv-python-tutroals.readthedocs.org/en/latest/" target="_blank">OpenCV-Python Here</a>
